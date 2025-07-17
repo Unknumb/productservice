@@ -1,4 +1,4 @@
-package com.perfulandia.usuarioservice;
+package com.perfulandia.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,14 +6,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class UsuarioserviceApplication {
+public class ProductserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UsuarioserviceApplication.class, args);
+		SpringApplication.run(ProductserviceApplication.class, args);
 	}
 
+
 	@Bean
-	public RestTemplate restTemplate() {
+	public RestTemplate restTemplate(){
 		return new RestTemplate();
 	}
+
 }

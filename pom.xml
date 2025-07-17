@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.perfulandia</groupId>
-	<artifactId>usuarioservice</artifactId>
+	<artifactId>productservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>usuarioservice</name>
-	<description>Microservicio de Usuario</description>
+	<name>productservice</name>
+	<description>Microservicio Perfumes</description>
 	<url/>
 	<licenses>
 		<license/>

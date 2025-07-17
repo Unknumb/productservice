@@ -1,5 +1,4 @@
-package com.perfulandia.usuarioservice.model;
-
+package com.perfulandia.productservice.model;
 
 import jakarta.persistence.ElementCollection;
 import lombok.AllArgsConstructor;
