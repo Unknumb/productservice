@@ -49,12 +49,12 @@ public class ProductoController {
     //Nuevo método
     @GetMapping("/usuario/{id}")
     public Usuario obtenerUsuario(@PathVariable long id){
-        return restTemplate.getForObject("http://localhost:8081/api/usuarios/"+id,Usuario.class);
+        return restTemplate.getForObject("https://usuarioservice.onrender.com/api/usuarios/"+id,Usuario.class);
     }
     //Nuevo método
     @GetMapping("/carrito/{id}")
     public Carrito obtenerCarrito(@PathVariable long id){
-        return restTemplate.getForObject("http://localhost:8083/api/carritos/"+id, Carrito.class);
+        return restTemplate.getForObject("https://carritoservice.onrender.com/api/carritos/"+id, Carrito.class);
     }
 
 
